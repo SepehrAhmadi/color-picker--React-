@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.colorPickerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colorPickerContainer h1{
+    margin: 20px;
+    font-size: 3em;
+}
+
+.colorDisplay{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid hsla(0, 0%, 0%, 0.2);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+    margin-bottom: 35px;
+    transition: 100ms ease-in-out;
+}
+
+.colorDisplay p{
+    font-size: 1.3em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.colorPickerContainer label{
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.colorPickerContainer input{
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid hsla(0, 0%, 0%, 0.4);
+    border-radius: 5px;
+    cursor: pointer;
+}
